@@ -4,7 +4,7 @@ import { recordAttempt, type RecordAttemptInput } from './practiceApi';
 // only the final attempt write needs the network. When it fails, queue the
 // payload in localStorage and replay it on reconnect (build plan §9 Phase 6:
 // "practice works offline, attempts sync on reconnect via queued inserts").
-const QUEUE_KEY = 'sruthiscribe-learn:offline-attempt-queue';
+const QUEUE_KEY = 'sruthiscribe-learn:offline-attempt-queue'; // old product name kept on purpose: renaming the key would drop attempts still waiting to sync
 
 interface QueuedAttempt {
   id: string;

@@ -1,4 +1,4 @@
-// Type definitions for the SruthiScribe engine port.
+// Type definitions for the SwaraScribe engine port.
 // Mirrors the plain-object shapes produced by the original engine.js —
 // see src/engine/legacy/engine.cjs for the untyped reference implementation.
 

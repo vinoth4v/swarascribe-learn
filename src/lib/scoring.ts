@@ -1,6 +1,6 @@
 import type { Note, Ragam } from '../engine/types';
 
-// Needleman-Wunsch global alignment — ported 1:1 from sruthiscribe's
+// Needleman-Wunsch global alignment — ported 1:1 from swarascribe's
 // index.html `alignSeqs()` (there: aligning a decoded take against the best
 // community-DB match, to suggest corrections). Build plan §7 repurposes this
 // exact function as the practice-scoring engine: do not rewrite it.

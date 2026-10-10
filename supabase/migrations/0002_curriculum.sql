@@ -1,5 +1,5 @@
 -- Phase 2: Curriculum schema (courses -> modules -> lessons)
--- Lessons reference kritis.id (existing table from sruthiscribe) rather than
+-- Lessons reference kritis.id (existing table from swarascribe) rather than
 -- copying notation, per build plan §4. Admin full CRUD; everyone reads only
 -- published rows.
 

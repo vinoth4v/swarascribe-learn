@@ -1,6 +1,6 @@
 // Self-contained PDF writer: embeds each canvas page as a JPEG in a minimal,
 // spec-correct PDF. No external library, no CDN, works offline and in any CSP.
-// Mechanical port of sruthiscribe's index.html buildPdfBlob() (~3876-3934).
+// Mechanical port of swarascribe's index.html buildPdfBlob() (~3876-3934).
 const A4W = 595.28, A4H = 841.89;
 
 export function buildPdfBlob(pages: HTMLCanvasElement[]): Blob {

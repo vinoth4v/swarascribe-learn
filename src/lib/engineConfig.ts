@@ -1,6 +1,6 @@
 import type { AnalyzeConfig, Ragam } from '../engine/types';
 
-// Defaults mirror sruthiscribe's test/test_engine.js cfgFor() and the values
+// Defaults mirror swarascribe's test/test_engine.js cfgFor() and the values
 // used throughout index.html's live analysis path — the tuning that the
 // golden tests (src/engine/__tests__/engine.golden.test.ts) were validated
 // against.

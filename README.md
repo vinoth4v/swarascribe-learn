@@ -1,16 +1,16 @@
-# SruthiScribe Learn
+# SwaraScribe Learn
 
 A Carnatic music learning app: pick a lesson, hear/see the reference, record
 yourself, get per-svara accuracy feedback. Built on top of
-[sruthiscribe](https://github.com/vinoth4v/sruthiscribe)'s pitch-tracking
+[swarascribe](https://github.com/vinoth4v/swarascribe)'s pitch-tracking
 engine and community kriti database. Full build plan in
-[`docs/sruthiscribe-learn-build-plan.md`](docs/sruthiscribe-learn-build-plan.md).
+[`docs/swarascribe-learn-build-plan.md`](docs/swarascribe-learn-build-plan.md).
 
 ## Setup
 
 ```bash
 npm install
-cp .env.example .env.local   # already points at the shared sruthiscribe Supabase project
+cp .env.example .env.local   # already points at the shared swarascribe Supabase project
 npm run dev
 ```
 

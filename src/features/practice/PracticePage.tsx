@@ -12,7 +12,7 @@ import type { PracticeScore, ReferenceSvara } from '../../lib/scoring';
 import { ResultsPanel } from './ResultsPanel';
 import { SectionPractice, type ScoredSection } from './SectionPractice';
 
-const DEFAULT_TONIC_HZ = 146.83; // D3, matches sruthiscribe's default Sa
+const DEFAULT_TONIC_HZ = 146.83; // D3, matches swarascribe's default Sa
 
 export function toReferenceSvaras(svaras: Array<{ s: string; o: number }>): ReferenceSvara[] {
   return svaras.map((s) => ({ s: s.s, o: s.o }));

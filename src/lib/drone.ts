@@ -1,4 +1,4 @@
-// Sruthi drone — mechanical port of sruthiscribe's index.html droneOn/droneOff/
+// Sruthi drone — mechanical port of swarascribe's index.html droneOn/droneOff/
 // pluck (~2280-2378), stripped of DOM/jQuery coupling. Same tambura cycle
 // (Pa-low, Sa, Sa, Sa-low every 900ms), same headroom-checked volume ceiling.
 export const DRONE_VOL_MAX = 0.6;

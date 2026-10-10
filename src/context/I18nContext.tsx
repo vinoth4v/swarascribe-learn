@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import { translate, type Lang, type StringKey } from '../lib/i18n';
 
-const STORAGE_KEY = 'sruthiscribe-learn:lang';
+const STORAGE_KEY = 'sruthiscribe-learn:lang'; // old product name kept on purpose: renaming the key would forget every saved language choice
 
 interface I18nContextValue {
   lang: Lang;

@@ -28,7 +28,7 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: 'SruthiScribe Learn',
+        name: 'SwaraScribe Learn',
         short_name: 'SS Learn',
         description: 'Carnatic music learning app — practice svaras with real-time feedback.',
         theme_color: '#a63325',

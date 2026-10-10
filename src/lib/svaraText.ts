@@ -1,6 +1,6 @@
 import type { ReferenceSvara } from './scoring';
 
-// Parses the same flat-token notation used throughout sruthiscribe (e.g. the
+// Parses the same flat-token notation used throughout swarascribe (e.g. the
 // versions.flat / community-DB "S R2 G3 P D2 S'" convention): a label
 // followed by `'` per octave up or `.` per octave down.
 export function parseFlatSvaras(text: string): ReferenceSvara[] {

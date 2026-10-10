@@ -1,6 +1,6 @@
-# SruthiScribe Learn — Build Plan for Claude Code
+# SwaraScribe Learn — Build Plan for Claude Code
 
-A phased plan to evolve SruthiScribe (svara transcription engine + community kriti DB) into a full-fledged Carnatic music learning app with **Student** and **Admin** experiences, modeled on Riyaz's practice-feedback loop.
+A phased plan to evolve SwaraScribe (svara transcription engine + community kriti DB) into a full-fledged Carnatic music learning app with **Student** and **Admin** experiences, modeled on Riyaz's practice-feedback loop.
 
 ---
 
@@ -8,7 +8,7 @@ A phased plan to evolve SruthiScribe (svara transcription engine + community kri
 
 Carnatic students practicing alone get no feedback on svara accuracy, sruthi alignment, or gamaka execution until their next class. Riyaz solved this for Hindustani/film music with real-time pitch feedback; nothing comparable exists with **ragam-aware, gamaka-aware** feedback for Carnatic music.
 
-SruthiScribe already has the hardest pieces built:
+SwaraScribe already has the hardest pieces built:
 - Client-side YIN pitch tracking + ragam-constrained Viterbi decoder (63 ragams)
 - Gamaka classification, two-pass auto sruthi correction, directional aroha/avaroha grammar
 - Needleman-Wunsch alignment (currently used for community DB matching) → reusable as the **practice scoring engine**
@@ -138,7 +138,7 @@ RLS sketch:
 ## 6. Repo Restructure
 
 ```
-sruthiscribe/
+swarascribe/
 ├── src/
 │   ├── engine/           # engine.js → engine.ts (mechanical port, no logic changes)
 │   ├── lib/              # supabase client, auth helpers, scoring.ts
@@ -225,7 +225,7 @@ Teacher role with assigned students; recording uploads + teacher comments; Lambd
 ## 10. CLAUDE.md (drop into repo root)
 
 ```markdown
-# SruthiScribe Learn
+# SwaraScribe Learn
 
 Carnatic music learning app. Vite + React + TS SPA, Supabase (auth/DB/storage),
 static deploy to Vercel + GitHub Pages.

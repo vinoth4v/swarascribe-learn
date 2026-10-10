@@ -1,7 +1,7 @@
-# SruthiScribe Learn
+# SwaraScribe Learn
 
 Carnatic music learning app. Vite + React + TS SPA, Supabase (auth/DB/storage),
-static deploy to Vercel + GitHub Pages. Build plan: docs/sruthiscribe-learn-build-plan.md.
+static deploy to Vercel + GitHub Pages. Build plan: docs/swarascribe-learn-build-plan.md.
 
 ## Hard rules
 - NEVER modify pitch/Viterbi/alignment logic in src/engine/engine.ts without
@@ -24,7 +24,7 @@ static deploy to Vercel + GitHub Pages. Build plan: docs/sruthiscribe-learn-buil
 
 ## Current phase
 Phases 0-6 all have a working first pass (see
-docs/sruthiscribe-learn-build-plan.md §9 for the phase definitions). Notable
+docs/swarascribe-learn-build-plan.md §9 for the phase definitions). Notable
 gaps to know about before extending further:
 - Google OAuth is configured but not yet verified end-to-end (no
   `google`-provider row confirmed in `auth.identities` as of last check).

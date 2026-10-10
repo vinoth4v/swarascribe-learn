@@ -66,7 +66,7 @@ export function DashboardPage() {
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'sruthiscribe-learn-progress.pdf';
+      a.download = 'swarascribe-learn-progress.pdf';
       a.click();
       URL.revokeObjectURL(url);
     } finally {

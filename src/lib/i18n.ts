@@ -5,7 +5,7 @@ export type Lang = 'en' | 'ta';
 // console stays English-only for now (lower priority, tooling rather than
 // learner-facing).
 export const STRINGS = {
-  brand: { en: 'SruthiScribe Learn', ta: 'சுருதிஸ்கிரைப் கற்றல்' },
+  brand: { en: 'SwaraScribe Learn', ta: 'ஸ்வரஸ்கிரைப் கற்றல்' },
   nav_learn: { en: 'Learn', ta: 'கற்க' },
   nav_admin: { en: 'Admin', ta: 'நிர்வாகம்' },
   nav_review: { en: 'Review', ta: 'மதிப்பாய்வு' },

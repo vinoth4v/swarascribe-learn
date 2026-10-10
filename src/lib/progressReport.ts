@@ -31,7 +31,7 @@ export function buildProgressReportPages(data: ProgressReportData): HTMLCanvasEl
   let y = 60;
 
   g.font = '700 22px sans-serif';
-  g.fillText('SruthiScribe Learn — Progress Report', mx, y);
+  g.fillText('SwaraScribe Learn — Progress Report', mx, y);
   y += 26;
   g.font = '13px sans-serif';
   g.fillStyle = '#666';

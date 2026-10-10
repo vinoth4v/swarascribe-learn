@@ -1,13 +1,13 @@
 import type { Kriti } from './db-types';
 
-// Mirrors sruthiscribe's sourceLabel() mapping (index.html ~5753). Saraga
+// Mirrors swarascribe's sourceLabel() mapping (index.html ~5753). Saraga
 // attribution is a license requirement (CLAUDE.md: "Saraga-sourced content
 // must render its stored attribution wherever shown"), non-negotiable.
 export function sourceLabel(source: string | null | undefined): string {
   if (!source) return '';
   if (/^saraga:/.test(source)) return 'Saraga · CC BY-NC-SA';
   if (/^wikipedia/.test(source)) return 'Wikipedia';
-  if (source === 'seed') return 'SruthiScribe';
+  if (source === 'seed') return 'SwaraScribe';
   return source;
 }
 

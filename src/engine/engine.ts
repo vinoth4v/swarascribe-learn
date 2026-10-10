@@ -1,8 +1,8 @@
 /* ============================================================
-   SruthiScribe engine — pitch tracking + ragam-aware svara decoding
+   SwaraScribe engine — pitch tracking + ragam-aware svara decoding
 
    Mechanical TypeScript port of src/engine/legacy/engine.cjs.
-   No logic changes — see docs/sruthiscribe-learn-build-plan.md §6/§9
+   No logic changes — see docs/swarascribe-learn-build-plan.md §6/§9
    ("do not rewrite alignment or the decoder"). Any behavioral change
    must be verified against the golden-file test in
    src/engine/__tests__/engine.golden.test.ts.

@@ -1,10 +1,10 @@
 // Golden-file test: every synthesized fixture below is run through BOTH the
 // frozen legacy engine (src/engine/legacy/engine.cjs, an untouched copy of
-// sruthiscribe's engine.js) and the ported TS engine (src/engine/engine.ts),
+// swarascribe's engine.js) and the ported TS engine (src/engine/engine.ts),
 // then asserted byte-identical on the outputs that matter to the product
 // (svara labels, articulation, tonic-offset, ragam suggestions, quality).
 //
-// Hard rule (see docs/sruthiscribe-learn-build-plan.md §9, Phase 0):
+// Hard rule (see docs/swarascribe-learn-build-plan.md §9, Phase 0):
 // NEVER change pitch/Viterbi/alignment logic without this test passing.
 import { createRequire } from 'node:module';
 import { describe, expect, it } from 'vitest';
@@ -27,7 +27,7 @@ interface SynthEvent {
 }
 
 // --- synthesise a voice-like tone following a cents contour (ported 1:1 from
-// sruthiscribe's test/test_engine.js so both engines see identical PCM) ---
+// swarascribe's test/test_engine.js so both engines see identical PCM) ---
 function synth(events: SynthEvent[], tonic: number, opts: { noise?: number } = {}): Float32Array {
   const total = events.reduce((a, e) => a + e.dur, 0);
   const n = Math.round(total * SR);
